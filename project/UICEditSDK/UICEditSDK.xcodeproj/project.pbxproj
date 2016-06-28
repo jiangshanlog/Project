@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38DB9881CEC46AE00D2733D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9871CEC46AE00D2733D /* main.m */; };
+		F38DB98B1CEC46AE00D2733D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38DB98A1CEC46AE00D2733D /* AppDelegate.mm */; };
+		F38DB98E1CEC46AE00D2733D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB98D1CEC46AE00D2733D /* ViewController.m */; };
+		F38DB9911CEC46AE00D2733D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38DB98F1CEC46AE00D2733D /* Main.storyboard */; };
+		F38DB9931CEC46AE00D2733D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DB9921CEC46AE00D2733D /* Assets.xcassets */; };
+		F38DB9961CEC46AE00D2733D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38DB9941CEC46AE00D2733D /* LaunchScreen.storyboard */; };
+		F38DB9A11CEC46AE00D2733D /* UICEditSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9A01CEC46AE00D2733D /* UICEditSDKTests.m */; };
+		F38DB9AC1CEC46AE00D2733D /* UICEditSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9AB1CEC46AE00D2733D /* UICEditSDKUITests.m */; };
+		F38DB9BE1CEC46FB00D2733D /* pg_edit_sdk_cdb_piratesdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9BA1CEC46FB00D2733D /* pg_edit_sdk_cdb_piratesdk.framework */; };
+		F38DB9BF1CEC46FB00D2733D /* pg_edit_sdk_common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9BB1CEC46FB00D2733D /* pg_edit_sdk_common.framework */; };
+		F38DB9C01CEC46FB00D2733D /* pg_edit_sdk_resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F38DB9BC1CEC46FB00D2733D /* pg_edit_sdk_resource.bundle */; };
+		F38DB9C11CEC46FB00D2733D /* PhotoEditFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9BD1CEC46FB00D2733D /* PhotoEditFramework.framework */; };
+		F38DB9C31CEC472500D2733D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9C21CEC472500D2733D /* CoreMotion.framework */; };
+		F38DB9C51CEC473000D2733D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9C41CEC473000D2733D /* AVFoundation.framework */; };
+		F38DB9C71CEC473800D2733D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9C61CEC473800D2733D /* CoreMedia.framework */; };
+		F38DB9C91CEC473E00D2733D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9C81CEC473E00D2733D /* CoreData.framework */; };
+		F38DB9CB1CEC474600D2733D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9CA1CEC474600D2733D /* CoreGraphics.framework */; };
+		F38DB9CD1CEC477E00D2733D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9CC1CEC477E00D2733D /* CoreImage.framework */; };
+		F38DB9CF1CEC478600D2733D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9CE1CEC478600D2733D /* ImageIO.framework */; };
+		F38DB9D11CEC478E00D2733D /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9D01CEC478E00D2733D /* libstdc++.6.tbd */; };
+		F38DB9D31CEC479500D2733D /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F38DB9D21CEC479500D2733D /* libz.1.2.5.tbd */; };
+		F38DB9D61CEC488500D2733D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9D51CEC488500D2733D /* EditViewController.m */; };
+		F38DB9DD1CEC49CD00D2733D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9D81CEC49CD00D2733D /* SVIndefiniteAnimatedView.m */; };
+		F38DB9DE1CEC49CD00D2733D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9DA1CEC49CD00D2733D /* SVProgressHUD.m */; };
+		F38DB9DF1CEC49CD00D2733D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F38DB9DB1CEC49CD00D2733D /* SVProgressHUD.bundle */; };
+		F38DB9E51CEC4A3300D2733D /* UICDisplayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9E11CEC4A3300D2733D /* UICDisplayImageView.m */; };
+		F38DB9E61CEC4A3300D2733D /* UICButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9E31CEC4A3300D2733D /* UICButton.m */; };
+		F38DB9E91CEC4A4B00D2733D /* CompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DB9E81CEC4A4B00D2733D /* CompleteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38DB99D1CEC46AE00D2733D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38DB97B1CEC46AE00D2733D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DB9821CEC46AE00D2733D;
+			remoteInfo = UICEditSDK;
+		};
+		F38DB9A81CEC46AE00D2733D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38DB97B1CEC46AE00D2733D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DB9821CEC46AE00D2733D;
+			remoteInfo = UICEditSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F38DB9831CEC46AE00D2733D /* UICEditSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICEditSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DB9871CEC46AE00D2733D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38DB9891CEC46AE00D2733D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F38DB98A1CEC46AE00D2733D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		F38DB98C1CEC46AE00D2733D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F38DB98D1CEC46AE00D2733D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F38DB9901CEC46AE00D2733D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38DB9921CEC46AE00D2733D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38DB9951CEC46AE00D2733D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38DB9971CEC46AE00D2733D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38DB99C1CEC46AE00D2733D /* UICEditSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICEditSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DB9A01CEC46AE00D2733D /* UICEditSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICEditSDKTests.m; sourceTree = "<group>"; };
+		F38DB9A21CEC46AE00D2733D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38DB9A71CEC46AE00D2733D /* UICEditSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICEditSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DB9AB1CEC46AE00D2733D /* UICEditSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICEditSDKUITests.m; sourceTree = "<group>"; };
+		F38DB9AD1CEC46AE00D2733D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38DB9BA1CEC46FB00D2733D /* pg_edit_sdk_cdb_piratesdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pg_edit_sdk_cdb_piratesdk.framework; sourceTree = "<group>"; };
+		F38DB9BB1CEC46FB00D2733D /* pg_edit_sdk_common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pg_edit_sdk_common.framework; sourceTree = "<group>"; };
+		F38DB9BC1CEC46FB00D2733D /* pg_edit_sdk_resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = pg_edit_sdk_resource.bundle; sourceTree = "<group>"; };
+		F38DB9BD1CEC46FB00D2733D /* PhotoEditFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhotoEditFramework.framework; sourceTree = "<group>"; };
+		F38DB9C21CEC472500D2733D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F38DB9C41CEC473000D2733D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F38DB9C61CEC473800D2733D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F38DB9C81CEC473E00D2733D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F38DB9CA1CEC474600D2733D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F38DB9CC1CEC477E00D2733D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F38DB9CE1CEC478600D2733D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F38DB9D01CEC478E00D2733D /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		F38DB9D21CEC479500D2733D /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F38DB9D41CEC488500D2733D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		F38DB9D51CEC488500D2733D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		F38DB9D71CEC49CD00D2733D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F38DB9D81CEC49CD00D2733D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F38DB9D91CEC49CD00D2733D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F38DB9DA1CEC49CD00D2733D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		F38DB9DB1CEC49CD00D2733D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F38DB9E01CEC4A3300D2733D /* UICDisplayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICDisplayImageView.h; sourceTree = "<group>"; };
+		F38DB9E11CEC4A3300D2733D /* UICDisplayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICDisplayImageView.m; sourceTree = "<group>"; };
+		F38DB9E21CEC4A3300D2733D /* UICButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICButton.h; sourceTree = "<group>"; };
+		F38DB9E31CEC4A3300D2733D /* UICButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICButton.m; sourceTree = "<group>"; };
+		F38DB9E71CEC4A4B00D2733D /* CompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteViewController.h; sourceTree = "<group>"; };
+		F38DB9E81CEC4A4B00D2733D /* CompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38DB9801CEC46AE00D2733D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DB9D31CEC479500D2733D /* libz.1.2.5.tbd in Frameworks */,
+				F38DB9D11CEC478E00D2733D /* libstdc++.6.tbd in Frameworks */,
+				F38DB9CF1CEC478600D2733D /* ImageIO.framework in Frameworks */,
+				F38DB9CD1CEC477E00D2733D /* CoreImage.framework in Frameworks */,
+				F38DB9CB1CEC474600D2733D /* CoreGraphics.framework in Frameworks */,
+				F38DB9C91CEC473E00D2733D /* CoreData.framework in Frameworks */,
+				F38DB9C71CEC473800D2733D /* CoreMedia.framework in Frameworks */,
+				F38DB9C51CEC473000D2733D /* AVFoundation.framework in Frameworks */,
+				F38DB9C31CEC472500D2733D /* CoreMotion.framework in Frameworks */,
+				F38DB9BE1CEC46FB00D2733D /* pg_edit_sdk_cdb_piratesdk.framework in Frameworks */,
+				F38DB9BF1CEC46FB00D2733D /* pg_edit_sdk_common.framework in Frameworks */,
+				F38DB9C11CEC46FB00D2733D /* PhotoEditFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB9991CEC46AE00D2733D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB9A41CEC46AE00D2733D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38DB97A1CEC46AE00D2733D = {
+			isa = PBXGroup;
+			children = (
+				F38DB9D21CEC479500D2733D /* libz.1.2.5.tbd */,
+				F38DB9D01CEC478E00D2733D /* libstdc++.6.tbd */,
+				F38DB9CE1CEC478600D2733D /* ImageIO.framework */,
+				F38DB9CC1CEC477E00D2733D /* CoreImage.framework */,
+				F38DB9CA1CEC474600D2733D /* CoreGraphics.framework */,
+				F38DB9C81CEC473E00D2733D /* CoreData.framework */,
+				F38DB9C61CEC473800D2733D /* CoreMedia.framework */,
+				F38DB9C41CEC473000D2733D /* AVFoundation.framework */,
+				F38DB9C21CEC472500D2733D /* CoreMotion.framework */,
+				F38DB9B91CEC46FB00D2733D /* framework */,
+				F38DB9851CEC46AE00D2733D /* UICEditSDK */,
+				F38DB99F1CEC46AE00D2733D /* UICEditSDKTests */,
+				F38DB9AA1CEC46AE00D2733D /* UICEditSDKUITests */,
+				F38DB9841CEC46AE00D2733D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38DB9841CEC46AE00D2733D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9831CEC46AE00D2733D /* UICEditSDK.app */,
+				F38DB99C1CEC46AE00D2733D /* UICEditSDKTests.xctest */,
+				F38DB9A71CEC46AE00D2733D /* UICEditSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38DB9851CEC46AE00D2733D /* UICEditSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9E41CEC4A3300D2733D /* Views */,
+				F38DB9DC1CEC49CD00D2733D /* SVProgressHUD */,
+				F38DB9891CEC46AE00D2733D /* AppDelegate.h */,
+				F38DB98A1CEC46AE00D2733D /* AppDelegate.mm */,
+				F38DB98C1CEC46AE00D2733D /* ViewController.h */,
+				F38DB98D1CEC46AE00D2733D /* ViewController.m */,
+				F38DB9D41CEC488500D2733D /* EditViewController.h */,
+				F38DB9D51CEC488500D2733D /* EditViewController.m */,
+				F38DB9E71CEC4A4B00D2733D /* CompleteViewController.h */,
+				F38DB9E81CEC4A4B00D2733D /* CompleteViewController.m */,
+				F38DB98F1CEC46AE00D2733D /* Main.storyboard */,
+				F38DB9921CEC46AE00D2733D /* Assets.xcassets */,
+				F38DB9941CEC46AE00D2733D /* LaunchScreen.storyboard */,
+				F38DB9971CEC46AE00D2733D /* Info.plist */,
+				F38DB9861CEC46AE00D2733D /* Supporting Files */,
+			);
+			path = UICEditSDK;
+			sourceTree = "<group>";
+		};
+		F38DB9861CEC46AE00D2733D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9871CEC46AE00D2733D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38DB99F1CEC46AE00D2733D /* UICEditSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9A01CEC46AE00D2733D /* UICEditSDKTests.m */,
+				F38DB9A21CEC46AE00D2733D /* Info.plist */,
+			);
+			path = UICEditSDKTests;
+			sourceTree = "<group>";
+		};
+		F38DB9AA1CEC46AE00D2733D /* UICEditSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9AB1CEC46AE00D2733D /* UICEditSDKUITests.m */,
+				F38DB9AD1CEC46AE00D2733D /* Info.plist */,
+			);
+			path = UICEditSDKUITests;
+			sourceTree = "<group>";
+		};
+		F38DB9B91CEC46FB00D2733D /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9BA1CEC46FB00D2733D /* pg_edit_sdk_cdb_piratesdk.framework */,
+				F38DB9BB1CEC46FB00D2733D /* pg_edit_sdk_common.framework */,
+				F38DB9BC1CEC46FB00D2733D /* pg_edit_sdk_resource.bundle */,
+				F38DB9BD1CEC46FB00D2733D /* PhotoEditFramework.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		F38DB9DC1CEC49CD00D2733D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9D71CEC49CD00D2733D /* SVIndefiniteAnimatedView.h */,
+				F38DB9D81CEC49CD00D2733D /* SVIndefiniteAnimatedView.m */,
+				F38DB9D91CEC49CD00D2733D /* SVProgressHUD.h */,
+				F38DB9DA1CEC49CD00D2733D /* SVProgressHUD.m */,
+				F38DB9DB1CEC49CD00D2733D /* SVProgressHUD.bundle */,
+			);
+			name = SVProgressHUD;
+			path = ../../../../Downloads/Camera360EditSDK_iOS1.3/demo/UICEditSDK/Classes/Common/SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		F38DB9E41CEC4A3300D2733D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F38DB9E01CEC4A3300D2733D /* UICDisplayImageView.h */,
+				F38DB9E11CEC4A3300D2733D /* UICDisplayImageView.m */,
+				F38DB9E21CEC4A3300D2733D /* UICButton.h */,
+				F38DB9E31CEC4A3300D2733D /* UICButton.m */,
+			);
+			name = Views;
+			path = ../../../../Downloads/Camera360EditSDK_iOS1.3/demo/UICEditSDK/Classes/Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38DB9821CEC46AE00D2733D /* UICEditSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DB9B01CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDK" */;
+			buildPhases = (
+				F38DB97F1CEC46AE00D2733D /* Sources */,
+				F38DB9801CEC46AE00D2733D /* Frameworks */,
+				F38DB9811CEC46AE00D2733D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICEditSDK;
+			productName = UICEditSDK;
+			productReference = F38DB9831CEC46AE00D2733D /* UICEditSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38DB99B1CEC46AE00D2733D /* UICEditSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DB9B31CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDKTests" */;
+			buildPhases = (
+				F38DB9981CEC46AE00D2733D /* Sources */,
+				F38DB9991CEC46AE00D2733D /* Frameworks */,
+				F38DB99A1CEC46AE00D2733D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DB99E1CEC46AE00D2733D /* PBXTargetDependency */,
+			);
+			name = UICEditSDKTests;
+			productName = UICEditSDKTests;
+			productReference = F38DB99C1CEC46AE00D2733D /* UICEditSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F38DB9A61CEC46AE00D2733D /* UICEditSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DB9B61CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDKUITests" */;
+			buildPhases = (
+				F38DB9A31CEC46AE00D2733D /* Sources */,
+				F38DB9A41CEC46AE00D2733D /* Frameworks */,
+				F38DB9A51CEC46AE00D2733D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DB9A91CEC46AE00D2733D /* PBXTargetDependency */,
+			);
+			name = UICEditSDKUITests;
+			productName = UICEditSDKUITests;
+			productReference = F38DB9A71CEC46AE00D2733D /* UICEditSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38DB97B1CEC46AE00D2733D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "姜杉";
+				TargetAttributes = {
+					F38DB9821CEC46AE00D2733D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F38DB99B1CEC46AE00D2733D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F38DB9821CEC46AE00D2733D;
+					};
+					F38DB9A61CEC46AE00D2733D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F38DB9821CEC46AE00D2733D;
+					};
+				};
+			};
+			buildConfigurationList = F38DB97E1CEC46AE00D2733D /* Build configuration list for PBXProject "UICEditSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38DB97A1CEC46AE00D2733D;
+			productRefGroup = F38DB9841CEC46AE00D2733D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38DB9821CEC46AE00D2733D /* UICEditSDK */,
+				F38DB99B1CEC46AE00D2733D /* UICEditSDKTests */,
+				F38DB9A61CEC46AE00D2733D /* UICEditSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38DB9811CEC46AE00D2733D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DB9DF1CEC49CD00D2733D /* SVProgressHUD.bundle in Resources */,
+				F38DB9961CEC46AE00D2733D /* LaunchScreen.storyboard in Resources */,
+				F38DB9931CEC46AE00D2733D /* Assets.xcassets in Resources */,
+				F38DB9911CEC46AE00D2733D /* Main.storyboard in Resources */,
+				F38DB9C01CEC46FB00D2733D /* pg_edit_sdk_resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB99A1CEC46AE00D2733D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB9A51CEC46AE00D2733D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38DB97F1CEC46AE00D2733D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DB9DD1CEC49CD00D2733D /* SVIndefiniteAnimatedView.m in Sources */,
+				F38DB9D61CEC488500D2733D /* EditViewController.m in Sources */,
+				F38DB98E1CEC46AE00D2733D /* ViewController.m in Sources */,
+				F38DB9E61CEC4A3300D2733D /* UICButton.m in Sources */,
+				F38DB98B1CEC46AE00D2733D /* AppDelegate.mm in Sources */,
+				F38DB9E51CEC4A3300D2733D /* UICDisplayImageView.m in Sources */,
+				F38DB9881CEC46AE00D2733D /* main.m in Sources */,
+				F38DB9DE1CEC49CD00D2733D /* SVProgressHUD.m in Sources */,
+				F38DB9E91CEC4A4B00D2733D /* CompleteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB9981CEC46AE00D2733D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DB9A11CEC46AE00D2733D /* UICEditSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DB9A31CEC46AE00D2733D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DB9AC1CEC46AE00D2733D /* UICEditSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38DB99E1CEC46AE00D2733D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DB9821CEC46AE00D2733D /* UICEditSDK */;
+			targetProxy = F38DB99D1CEC46AE00D2733D /* PBXContainerItemProxy */;
+		};
+		F38DB9A91CEC46AE00D2733D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DB9821CEC46AE00D2733D /* UICEditSDK */;
+			targetProxy = F38DB9A81CEC46AE00D2733D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38DB98F1CEC46AE00D2733D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38DB9901CEC46AE00D2733D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38DB9941CEC46AE00D2733D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38DB9951CEC46AE00D2733D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38DB9AE1CEC46AE00D2733D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38DB9AF1CEC46AE00D2733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38DB9B11CEC46AE00D2733D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework",
+				);
+				INFOPLIST_FILE = UICEditSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson123.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F38DB9B21CEC46AE00D2733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework",
+				);
+				INFOPLIST_FILE = UICEditSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson123.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F38DB9B41CEC46AE00D2733D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UICEditSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johnson.UICEditSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICEditSDK.app/UICEditSDK";
+			};
+			name = Debug;
+		};
+		F38DB9B51CEC46AE00D2733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UICEditSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johnson.UICEditSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICEditSDK.app/UICEditSDK";
+			};
+			name = Release;
+		};
+		F38DB9B71CEC46AE00D2733D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UICEditSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johnson.UICEditSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICEditSDK;
+			};
+			name = Debug;
+		};
+		F38DB9B81CEC46AE00D2733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UICEditSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johnson.UICEditSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICEditSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38DB97E1CEC46AE00D2733D /* Build configuration list for PBXProject "UICEditSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DB9AE1CEC46AE00D2733D /* Debug */,
+				F38DB9AF1CEC46AE00D2733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38DB9B01CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DB9B11CEC46AE00D2733D /* Debug */,
+				F38DB9B21CEC46AE00D2733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F38DB9B31CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DB9B41CEC46AE00D2733D /* Debug */,
+				F38DB9B51CEC46AE00D2733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F38DB9B61CEC46AE00D2733D /* Build configuration list for PBXNativeTarget "UICEditSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DB9B71CEC46AE00D2733D /* Debug */,
+				F38DB9B81CEC46AE00D2733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38DB97B1CEC46AE00D2733D /* Project object */;
+}

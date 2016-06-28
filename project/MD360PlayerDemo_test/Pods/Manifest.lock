@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MD360Player4iOS (0.2.0)
+  - pili-librtmp (1.0.1)
+  - PLPlayerKit (2.1.3):
+    - pili-librtmp
+    - PLPlayerKit/precompiled (= 2.1.3)
+  - PLPlayerKit/precompiled (2.1.3):
+    - pili-librtmp
+  - VIMVideoPlayer (6.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - MD360Player4iOS (~> 0.2.0)
+  - PLPlayerKit (~> 2.1.3)
+  - VIMVideoPlayer (~> 6.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MD360Player4iOS: ee2c0740dc48473618e938ba395d44b79c3b3038
+  pili-librtmp: 8f2b969a1890e881715a90ab98d4d52baf53c514
+  PLPlayerKit: 40c6b08f093ee53ea41bca9ae77baf04e7334d98
+  VIMVideoPlayer: f4ed0a9986294ec3684a2e6bdc738e30051ef4ef
+
+COCOAPODS: 0.39.0

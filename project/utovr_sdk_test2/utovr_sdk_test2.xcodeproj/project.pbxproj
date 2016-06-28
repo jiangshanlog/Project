@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31CB9091CC4705A00DF6BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CB9081CC4705A00DF6BC2 /* main.m */; };
+		F31CB90C1CC4705A00DF6BC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CB90B1CC4705A00DF6BC2 /* AppDelegate.m */; };
+		F31CB90F1CC4705A00DF6BC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CB90E1CC4705A00DF6BC2 /* ViewController.m */; };
+		F31CB9121CC4705A00DF6BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31CB9101CC4705A00DF6BC2 /* Main.storyboard */; };
+		F31CB9141CC4705A00DF6BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31CB9131CC4705A00DF6BC2 /* Assets.xcassets */; };
+		F31CB9171CC4705A00DF6BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31CB9151CC4705A00DF6BC2 /* LaunchScreen.storyboard */; };
+		F31CB9221CC4705A00DF6BC2 /* utovr_sdk_test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CB9211CC4705A00DF6BC2 /* utovr_sdk_test2Tests.m */; };
+		F31CB92D1CC4705A00DF6BC2 /* utovr_sdk_test2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CB92C1CC4705A00DF6BC2 /* utovr_sdk_test2UITests.m */; };
+		F31CB93B1CC470BF00DF6BC2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31CB93A1CC470BF00DF6BC2 /* CoreMotion.framework */; };
+		F31CB93D1CC470C500DF6BC2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31CB93C1CC470C500DF6BC2 /* GLKit.framework */; };
+		F31CB93F1CC470CD00DF6BC2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F31CB93E1CC470CD00DF6BC2 /* libz.tbd */; };
+		F31CB9431CC470FF00DF6BC2 /* UtoVRPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31CB9411CC470FF00DF6BC2 /* UtoVRPlayer.framework */; };
+		F31CB9441CC470FF00DF6BC2 /* UtoVRPlayerResouces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F31CB9421CC470FF00DF6BC2 /* UtoVRPlayerResouces.bundle */; };
+		F31CB9461CC4711E00DF6BC2 /* wu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F31CB9451CC4711E00DF6BC2 /* wu.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F31CB91E1CC4705A00DF6BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31CB8FC1CC4705A00DF6BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31CB9031CC4705A00DF6BC2;
+			remoteInfo = utovr_sdk_test2;
+		};
+		F31CB9291CC4705A00DF6BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31CB8FC1CC4705A00DF6BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31CB9031CC4705A00DF6BC2;
+			remoteInfo = utovr_sdk_test2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31CB9041CC4705A00DF6BC2 /* utovr_sdk_test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utovr_sdk_test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31CB9081CC4705A00DF6BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F31CB90A1CC4705A00DF6BC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F31CB90B1CC4705A00DF6BC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F31CB90D1CC4705A00DF6BC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F31CB90E1CC4705A00DF6BC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F31CB9111CC4705A00DF6BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F31CB9131CC4705A00DF6BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31CB9161CC4705A00DF6BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F31CB9181CC4705A00DF6BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31CB91D1CC4705A00DF6BC2 /* utovr_sdk_test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = utovr_sdk_test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31CB9211CC4705A00DF6BC2 /* utovr_sdk_test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utovr_sdk_test2Tests.m; sourceTree = "<group>"; };
+		F31CB9231CC4705A00DF6BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31CB9281CC4705A00DF6BC2 /* utovr_sdk_test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = utovr_sdk_test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31CB92C1CC4705A00DF6BC2 /* utovr_sdk_test2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utovr_sdk_test2UITests.m; sourceTree = "<group>"; };
+		F31CB92E1CC4705A00DF6BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31CB93A1CC470BF00DF6BC2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F31CB93C1CC470C500DF6BC2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F31CB93E1CC470CD00DF6BC2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F31CB9411CC470FF00DF6BC2 /* UtoVRPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UtoVRPlayer.framework; sourceTree = "<group>"; };
+		F31CB9421CC470FF00DF6BC2 /* UtoVRPlayerResouces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UtoVRPlayerResouces.bundle; sourceTree = "<group>"; };
+		F31CB9451CC4711E00DF6BC2 /* wu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wu.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31CB9011CC4705A00DF6BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CB93F1CC470CD00DF6BC2 /* libz.tbd in Frameworks */,
+				F31CB93D1CC470C500DF6BC2 /* GLKit.framework in Frameworks */,
+				F31CB9431CC470FF00DF6BC2 /* UtoVRPlayer.framework in Frameworks */,
+				F31CB93B1CC470BF00DF6BC2 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB91A1CC4705A00DF6BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB9251CC4705A00DF6BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31CB8FB1CC4705A00DF6BC2 = {
+			isa = PBXGroup;
+			children = (
+				F31CB93E1CC470CD00DF6BC2 /* libz.tbd */,
+				F31CB9401CC470FF00DF6BC2 /* UtoVRPlayerSDK */,
+				F31CB93C1CC470C500DF6BC2 /* GLKit.framework */,
+				F31CB93A1CC470BF00DF6BC2 /* CoreMotion.framework */,
+				F31CB9061CC4705A00DF6BC2 /* utovr_sdk_test2 */,
+				F31CB9201CC4705A00DF6BC2 /* utovr_sdk_test2Tests */,
+				F31CB92B1CC4705A00DF6BC2 /* utovr_sdk_test2UITests */,
+				F31CB9051CC4705A00DF6BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31CB9051CC4705A00DF6BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB9041CC4705A00DF6BC2 /* utovr_sdk_test2.app */,
+				F31CB91D1CC4705A00DF6BC2 /* utovr_sdk_test2Tests.xctest */,
+				F31CB9281CC4705A00DF6BC2 /* utovr_sdk_test2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31CB9061CC4705A00DF6BC2 /* utovr_sdk_test2 */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB90A1CC4705A00DF6BC2 /* AppDelegate.h */,
+				F31CB90B1CC4705A00DF6BC2 /* AppDelegate.m */,
+				F31CB90D1CC4705A00DF6BC2 /* ViewController.h */,
+				F31CB90E1CC4705A00DF6BC2 /* ViewController.m */,
+				F31CB9451CC4711E00DF6BC2 /* wu.mp4 */,
+				F31CB9101CC4705A00DF6BC2 /* Main.storyboard */,
+				F31CB9131CC4705A00DF6BC2 /* Assets.xcassets */,
+				F31CB9151CC4705A00DF6BC2 /* LaunchScreen.storyboard */,
+				F31CB9181CC4705A00DF6BC2 /* Info.plist */,
+				F31CB9071CC4705A00DF6BC2 /* Supporting Files */,
+			);
+			path = utovr_sdk_test2;
+			sourceTree = "<group>";
+		};
+		F31CB9071CC4705A00DF6BC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB9081CC4705A00DF6BC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F31CB9201CC4705A00DF6BC2 /* utovr_sdk_test2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB9211CC4705A00DF6BC2 /* utovr_sdk_test2Tests.m */,
+				F31CB9231CC4705A00DF6BC2 /* Info.plist */,
+			);
+			path = utovr_sdk_test2Tests;
+			sourceTree = "<group>";
+		};
+		F31CB92B1CC4705A00DF6BC2 /* utovr_sdk_test2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB92C1CC4705A00DF6BC2 /* utovr_sdk_test2UITests.m */,
+				F31CB92E1CC4705A00DF6BC2 /* Info.plist */,
+			);
+			path = utovr_sdk_test2UITests;
+			sourceTree = "<group>";
+		};
+		F31CB9401CC470FF00DF6BC2 /* UtoVRPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F31CB9411CC470FF00DF6BC2 /* UtoVRPlayer.framework */,
+				F31CB9421CC470FF00DF6BC2 /* UtoVRPlayerResouces.bundle */,
+			);
+			path = UtoVRPlayerSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31CB9031CC4705A00DF6BC2 /* utovr_sdk_test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31CB9311CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2" */;
+			buildPhases = (
+				F31CB9001CC4705A00DF6BC2 /* Sources */,
+				F31CB9011CC4705A00DF6BC2 /* Frameworks */,
+				F31CB9021CC4705A00DF6BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utovr_sdk_test2;
+			productName = utovr_sdk_test2;
+			productReference = F31CB9041CC4705A00DF6BC2 /* utovr_sdk_test2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31CB91C1CC4705A00DF6BC2 /* utovr_sdk_test2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31CB9341CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2Tests" */;
+			buildPhases = (
+				F31CB9191CC4705A00DF6BC2 /* Sources */,
+				F31CB91A1CC4705A00DF6BC2 /* Frameworks */,
+				F31CB91B1CC4705A00DF6BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31CB91F1CC4705A00DF6BC2 /* PBXTargetDependency */,
+			);
+			name = utovr_sdk_test2Tests;
+			productName = utovr_sdk_test2Tests;
+			productReference = F31CB91D1CC4705A00DF6BC2 /* utovr_sdk_test2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F31CB9271CC4705A00DF6BC2 /* utovr_sdk_test2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31CB9371CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2UITests" */;
+			buildPhases = (
+				F31CB9241CC4705A00DF6BC2 /* Sources */,
+				F31CB9251CC4705A00DF6BC2 /* Frameworks */,
+				F31CB9261CC4705A00DF6BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31CB92A1CC4705A00DF6BC2 /* PBXTargetDependency */,
+			);
+			name = utovr_sdk_test2UITests;
+			productName = utovr_sdk_test2UITests;
+			productReference = F31CB9281CC4705A00DF6BC2 /* utovr_sdk_test2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31CB8FC1CC4705A00DF6BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "姜杉";
+				TargetAttributes = {
+					F31CB9031CC4705A00DF6BC2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F31CB91C1CC4705A00DF6BC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F31CB9031CC4705A00DF6BC2;
+					};
+					F31CB9271CC4705A00DF6BC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F31CB9031CC4705A00DF6BC2;
+					};
+				};
+			};
+			buildConfigurationList = F31CB8FF1CC4705A00DF6BC2 /* Build configuration list for PBXProject "utovr_sdk_test2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31CB8FB1CC4705A00DF6BC2;
+			productRefGroup = F31CB9051CC4705A00DF6BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31CB9031CC4705A00DF6BC2 /* utovr_sdk_test2 */,
+				F31CB91C1CC4705A00DF6BC2 /* utovr_sdk_test2Tests */,
+				F31CB9271CC4705A00DF6BC2 /* utovr_sdk_test2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31CB9021CC4705A00DF6BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CB9461CC4711E00DF6BC2 /* wu.mp4 in Resources */,
+				F31CB9441CC470FF00DF6BC2 /* UtoVRPlayerResouces.bundle in Resources */,
+				F31CB9171CC4705A00DF6BC2 /* LaunchScreen.storyboard in Resources */,
+				F31CB9141CC4705A00DF6BC2 /* Assets.xcassets in Resources */,
+				F31CB9121CC4705A00DF6BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB91B1CC4705A00DF6BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB9261CC4705A00DF6BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31CB9001CC4705A00DF6BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CB90F1CC4705A00DF6BC2 /* ViewController.m in Sources */,
+				F31CB90C1CC4705A00DF6BC2 /* AppDelegate.m in Sources */,
+				F31CB9091CC4705A00DF6BC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB9191CC4705A00DF6BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CB9221CC4705A00DF6BC2 /* utovr_sdk_test2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31CB9241CC4705A00DF6BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CB92D1CC4705A00DF6BC2 /* utovr_sdk_test2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31CB91F1CC4705A00DF6BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31CB9031CC4705A00DF6BC2 /* utovr_sdk_test2 */;
+			targetProxy = F31CB91E1CC4705A00DF6BC2 /* PBXContainerItemProxy */;
+		};
+		F31CB92A1CC4705A00DF6BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31CB9031CC4705A00DF6BC2 /* utovr_sdk_test2 */;
+			targetProxy = F31CB9291CC4705A00DF6BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31CB9101CC4705A00DF6BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31CB9111CC4705A00DF6BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F31CB9151CC4705A00DF6BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31CB9161CC4705A00DF6BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31CB92F1CC4705A00DF6BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31CB9301CC4705A00DF6BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31CB9321CC4705A00DF6BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UtoVRPlayerSDK",
+				);
+				INFOPLIST_FILE = utovr_sdk_test2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F31CB9331CC4705A00DF6BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UtoVRPlayerSDK",
+				);
+				INFOPLIST_FILE = utovr_sdk_test2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F31CB9351CC4705A00DF6BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = utovr_sdk_test2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utovr_sdk_test2.app/utovr_sdk_test2";
+			};
+			name = Debug;
+		};
+		F31CB9361CC4705A00DF6BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = utovr_sdk_test2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utovr_sdk_test2.app/utovr_sdk_test2";
+			};
+			name = Release;
+		};
+		F31CB9381CC4705A00DF6BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = utovr_sdk_test2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = utovr_sdk_test2;
+			};
+			name = Debug;
+		};
+		F31CB9391CC4705A00DF6BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = utovr_sdk_test2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson.utovr-sdk-test2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = utovr_sdk_test2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31CB8FF1CC4705A00DF6BC2 /* Build configuration list for PBXProject "utovr_sdk_test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31CB92F1CC4705A00DF6BC2 /* Debug */,
+				F31CB9301CC4705A00DF6BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31CB9311CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31CB9321CC4705A00DF6BC2 /* Debug */,
+				F31CB9331CC4705A00DF6BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F31CB9341CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31CB9351CC4705A00DF6BC2 /* Debug */,
+				F31CB9361CC4705A00DF6BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F31CB9371CC4705A00DF6BC2 /* Build configuration list for PBXNativeTarget "utovr_sdk_test2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31CB9381CC4705A00DF6BC2 /* Debug */,
+				F31CB9391CC4705A00DF6BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31CB8FC1CC4705A00DF6BC2 /* Project object */;
+}

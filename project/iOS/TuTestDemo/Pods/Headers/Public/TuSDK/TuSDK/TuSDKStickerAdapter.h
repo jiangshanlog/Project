@@ -1,0 +1,1 @@
+../../../../TuSDK/TuSDK.framework/Versions/A/Headers/TuSDKStickerAdapter.h

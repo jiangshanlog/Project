@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target '二维码扫描' do
+pod 'WebViewJavascriptBridge', '~> 5.0.5'
+end
+
+target '二维码扫描Tests' do
+
+end
+
+target '二维码扫描UITests' do
+
+end
+

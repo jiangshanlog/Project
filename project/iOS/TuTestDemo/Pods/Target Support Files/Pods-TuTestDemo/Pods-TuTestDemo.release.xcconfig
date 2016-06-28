@@ -1,0 +1,7 @@
+CLANG_MODULES_AUTOLINK = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TuSDK" "${PODS_ROOT}/TuSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/TuSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/TuSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GPUImage" -framework "AVFoundation" -framework "CoreMedia" -framework "OpenGLES" -framework "QuartzCore" -framework "TuSDK" -framework "TuSDKGeeV1"
+PODS_ROOT = ${SRCROOT}/Pods
